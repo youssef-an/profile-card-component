@@ -1,0 +1,21 @@
+$mobileSize: 500px;
+
+@media screen and (max-width: $mobileSize) {
+  .circle-top {
+    position: absolute;
+    top: -760px;
+    left: -640px;
+    z-index: -1;
+  }
+
+  .circle-bottom {
+    position: absolute;
+    bottom: -600px;
+    right: -760px;
+    z-index: -1;
+  }
+
+  .card {
+    width: 300px;
+  }
+}
